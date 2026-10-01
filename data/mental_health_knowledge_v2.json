@@ -1,0 +1,2317 @@
+[
+  {
+    "id": 1,
+    "question": "What is depression?",
+    "alternate_questions": ["What does depression mean?", "Can you explain depression?", "Tell me about depression"],
+    "answer": "Depression is a mental health condition involving persistent sadness, loss of interest in activities, fatigue, and difficulty concentrating. In severe cases, it may include thoughts of self-harm.",
+    "keywords": ["depression", "sad", "low mood", "mental health"],
+    "category": "depression",
+    "intent_type": "definition"
+  },
+  {
+    "id": 2,
+    "question": "How can I manage anxiety?",
+    "alternate_questions": ["What helps with anxiety?", "Ways to calm down when anxious", "How do I deal with anxiety?"],
+    "answer": "Try breathing exercises, mindfulness practices, grounding techniques, regular physical activity, and maintaining good sleep habits to help manage anxiety.",
+    "keywords": ["anxiety", "panic", "stress", "coping"],
+    "category": "anxiety",
+    "intent_type": "coping"
+  },
+  {
+    "id": 3,
+    "question": "What are signs of burnout?",
+    "alternate_questions": ["How do I know if I'm burned out?", "Symptoms of burnout", "What does burnout feel like?"],
+    "answer": "Burnout includes chronic fatigue, lack of motivation, irritability, cynicism, and reduced performance due to prolonged stress.",
+    "keywords": ["burnout", "stress", "fatigue", "exhaustion"],
+    "category": "stress",
+    "intent_type": "symptoms"
+  },
+  {
+    "id": 4,
+    "question": "How do I help a friend who is struggling?",
+    "alternate_questions": ["What can I do for a depressed friend?", "How to support someone mentally?", "My friend is struggling, what should I do?"],
+    "answer": "Listen without judgment, check in regularly, validate their feelings, and gently encourage them to seek professional help if needed.",
+    "keywords": ["support", "friend", "help", "someone else"],
+    "category": "support",
+    "intent_type": "support"
+  },
+  {
+    "id": 5,
+    "question": "How do I practice mindfulness?",
+    "alternate_questions": ["What are mindfulness techniques?", "How can I be more mindful?", "Ways to meditate"],
+    "answer": "Focus on the present moment through deep breathing, body scans, meditation, or simply paying attention to your senses without judgment.",
+    "keywords": ["mindfulness", "meditation", "present"],
+    "category": "self_growth",
+    "intent_type": "coping"
+  },
+  {
+    "id": 6,
+    "question": "What is PTSD?",
+    "alternate_questions": ["What does PTSD mean?", "Explain post-traumatic stress disorder", "What is trauma disorder?"],
+    "answer": "PTSD is a condition triggered by experiencing or witnessing trauma, involving flashbacks, nightmares, severe anxiety, and emotional distress.",
+    "keywords": ["ptsd", "trauma", "post-traumatic"],
+    "category": "trauma",
+    "intent_type": "definition"
+  },
+  {
+    "id": 7,
+    "question": "How can I improve my sleep?",
+    "alternate_questions": ["Tips for better sleep", "I can't sleep, what helps?", "How do I fix insomnia?"],
+    "answer": "Maintain a consistent sleep schedule, avoid screens before bed, limit caffeine intake, and create a calm, dark sleep environment.",
+    "keywords": ["sleep", "insomnia", "rest"],
+    "category": "sleep",
+    "intent_type": "coping"
+  },
+  {
+    "id": 8,
+    "question": "What is CBT?",
+    "alternate_questions": ["What does CBT stand for?", "Explain cognitive behavioral therapy", "What is cognitive therapy?"],
+    "answer": "CBT (Cognitive Behavioral Therapy) is a therapy approach that helps identify and change negative thinking patterns and behaviors.",
+    "keywords": ["cbt", "therapy", "cognitive"],
+    "category": "therapy",
+    "intent_type": "definition"
+  },
+  {
+    "id": 9,
+    "question": "What are grounding techniques?",
+    "alternate_questions": ["How do I ground myself?", "Grounding exercises for anxiety", "What helps during panic attacks?"],
+    "answer": "Grounding techniques help you stay present by focusing on your senses—like naming 5 things you see, 4 you can touch, 3 you hear, 2 you smell, and 1 you taste.",
+    "keywords": ["grounding", "panic", "anxiety", "present"],
+    "category": "anxiety",
+    "intent_type": "coping"
+  },
+  {
+    "id": 10,
+    "question": "How can I boost my self-esteem?",
+    "alternate_questions": ["How do I build confidence?", "Ways to improve self-worth", "I have low self-esteem, what helps?"],
+    "answer": "Practice self-compassion, set achievable goals, celebrate small wins, and challenge negative self-talk with realistic thinking.",
+    "keywords": ["confidence", "self-esteem", "self-worth"],
+    "category": "self_esteem",
+    "intent_type": "coping"
+  },
+  {
+    "id": 11,
+    "question": "What is bipolar disorder?",
+    "alternate_questions": ["Explain bipolar disorder", "What causes mood swings disorder?", "What does bipolar mean?"],
+    "answer": "Bipolar disorder causes extreme mood swings between depressive lows and manic highs. Treatment typically includes therapy and medication.",
+    "keywords": ["bipolar", "mood swings", "mania"],
+    "category": "depression",
+    "intent_type": "definition"
+  },
+  {
+    "id": 12,
+    "question": "What is OCD?",
+    "alternate_questions": ["What does OCD mean?", "Explain obsessive compulsive disorder", "What are OCD symptoms?"],
+    "answer": "OCD involves intrusive, unwanted thoughts (obsessions) and repetitive behaviors (compulsions) used to reduce the anxiety they cause.",
+    "keywords": ["ocd", "obsession", "compulsion"],
+    "category": "anxiety",
+    "intent_type": "definition"
+  },
+  {
+    "id": 13,
+    "question": "What is social anxiety?",
+    "alternate_questions": ["What does social anxiety feel like?", "Fear of social situations disorder", "Is social anxiety different from shyness?"],
+    "answer": "Social anxiety is intense fear of being judged or embarrassed in social settings, often leading to avoidance and significant distress.",
+    "keywords": ["social anxiety", "fear", "judgment"],
+    "category": "anxiety",
+    "intent_type": "definition"
+  },
+  {
+    "id": 14,
+    "question": "How can I calm a panic attack?",
+    "alternate_questions": ["How to stop a panic attack?", "What helps during panic attacks?", "I'm having a panic attack, what do I do?"],
+    "answer": "Focus on slow, deep breathing, use grounding techniques like the 5-4-3-2-1 method, and remind yourself the feeling will pass.",
+    "keywords": ["panic", "anxiety", "attack"],
+    "category": "anxiety",
+    "intent_type": "coping"
+  },
+  {
+    "id": 15,
+    "question": "What is schizophrenia?",
+    "alternate_questions": ["Explain schizophrenia", "What is psychosis disorder?", "What causes hallucinations and delusions?"],
+    "answer": "Schizophrenia is a mental health condition involving hallucinations, delusions, disorganized thinking, and difficulty distinguishing reality.",
+    "keywords": ["schizophrenia", "psychosis", "hallucinations"],
+    "category": "mental_disorders",
+    "intent_type": "definition"
+  },
+  {
+    "id": 16,
+    "question": "What is the difference between stress and anxiety?",
+    "alternate_questions": ["Stress vs anxiety", "How is anxiety different from stress?", "Are stress and worry the same?"],
+    "answer": "Stress is a response to external pressure or demands, while anxiety can persist even without a clear trigger and involves excessive worry.",
+    "keywords": ["stress", "anxiety", "difference"],
+    "category": "stress",
+    "intent_type": "definition"
+  },
+  {
+    "id": 17,
+    "question": "What is self-care?",
+    "alternate_questions": ["What does self-care mean?", "Examples of self-care", "How do I take care of myself?"],
+    "answer": "Self-care includes activities that support your mental and physical well-being, like rest, exercise, healthy eating, hobbies, and relaxation.",
+    "keywords": ["self-care", "wellness", "health"],
+    "category": "self_growth",
+    "intent_type": "definition"
+  },
+  {
+    "id": 18,
+    "question": "How do I know if I need therapy?",
+    "alternate_questions": ["Do I need counseling?", "Signs you should see a therapist", "When should I talk to a therapist?"],
+    "answer": "Consider therapy if you feel overwhelmed, struggle to manage daily life, experience persistent sadness or anxiety, or want support navigating challenges.",
+    "keywords": ["therapy", "counseling", "help"],
+    "category": "therapy",
+    "intent_type": "symptoms"
+  },
+  {
+    "id": 19,
+    "question": "How do I cope with grief?",
+    "alternate_questions": ["Dealing with loss", "How to handle grief?", "I lost someone, what helps?"],
+    "answer": "Allow yourself to feel your emotions, seek support from loved ones or a counselor, and give yourself time to heal without rushing the process.",
+    "keywords": ["grief", "loss", "death"],
+    "category": "emotional",
+    "intent_type": "coping"
+  },
+  {
+    "id": 20,
+    "question": "What is ADHD?",
+    "alternate_questions": ["What does ADHD mean?", "Explain attention deficit disorder", "What is hyperactivity disorder?"],
+    "answer": "ADHD affects attention, impulse control, and activity levels, making it hard to focus, stay organized, or control impulsive behaviors.",
+    "keywords": ["adhd", "attention", "hyperactivity"],
+    "category": "neurodiversity",
+    "intent_type": "definition"
+  },
+  {
+    "id": 21,
+    "question": "How does exercise help mental health?",
+    "alternate_questions": ["Benefits of exercise for mood", "Does working out help anxiety?", "Why is exercise good for mental health?"],
+    "answer": "Exercise releases endorphins, reduces stress hormones, improves mood, and can help manage symptoms of anxiety and depression.",
+    "keywords": ["exercise", "mental health", "mood"],
+    "category": "health",
+    "intent_type": "cause"
+  },
+  {
+    "id": 22,
+    "question": "How does diet affect mental health?",
+    "alternate_questions": ["Does food impact mood?", "Can diet help mental health?", "Healthy eating and brain health"],
+    "answer": "A balanced diet supports brain function and mood stability, while poor nutrition can contribute to fatigue, irritability, and mental health issues.",
+    "keywords": ["diet", "nutrition", "food"],
+    "category": "health",
+    "intent_type": "cause"
+  },
+  {
+    "id": 23,
+    "question": "What are warning signs of suicide?",
+    "alternate_questions": ["How to detect suicidal thoughts?", "Signs someone might be suicidal", "Suicide warning behaviors"],
+    "answer": "Warning signs include expressing hopelessness, withdrawing from others, sudden mood changes, talking about death, and giving away belongings.",
+    "keywords": ["suicide", "crisis", "warning signs"],
+    "category": "crisis",
+    "intent_type": "symptoms"
+  },
+  {
+    "id": 24,
+    "question": "What is resilience?",
+    "alternate_questions": ["What does resilience mean?", "How to be mentally strong?", "Building resilience"],
+    "answer": "Resilience is the ability to bounce back from challenges, adapt to stress, and recover from difficult experiences.",
+    "keywords": ["resilience", "strength", "coping"],
+    "category": "self_growth",
+    "intent_type": "definition"
+  },
+  {
+    "id": 25,
+    "question": "How does sleep affect mental health?",
+    "alternate_questions": ["Does lack of sleep cause depression?", "Sleep and mood connection", "Why is sleep important?"],
+    "answer": "Poor sleep can worsen anxiety, depression, and mood issues, while quality sleep improves focus, emotional regulation, and overall well-being.",
+    "keywords": ["sleep", "mental health", "mood"],
+    "category": "sleep",
+    "intent_type": "cause"
+  },
+  {
+    "id": 26,
+    "question": "How does journaling help?",
+    "alternate_questions": ["Benefits of journaling", "Does writing help mental health?", "How to use journaling for emotions?"],
+    "answer": "Journaling helps process emotions, reduce stress, gain clarity, and improve self-awareness by putting thoughts and feelings into words.",
+    "keywords": ["journaling", "writing", "emotions"],
+    "category": "self_growth",
+    "intent_type": "coping"
+  },
+  {
+    "id": 27,
+    "question": "Why is social support important?",
+    "alternate_questions": ["Benefits of friends for mental health", "Why do I need a support system?", "Does connection help mental health?"],
+    "answer": "Social support provides emotional comfort, reduces stress, combats loneliness, and helps you feel understood and valued.",
+    "keywords": ["support", "connection", "friends"],
+    "category": "emotional",
+    "intent_type": "cause"
+  },
+  {
+    "id": 28,
+    "question": "What is meditation?",
+    "alternate_questions": ["How does meditation work?", "What are meditation benefits?", "Explain meditation"],
+    "answer": "Meditation is a practice that trains your mind to focus and be present, helping reduce stress, improve concentration, and promote emotional balance.",
+    "keywords": ["meditation", "mindfulness", "calm"],
+    "category": "self_growth",
+    "intent_type": "definition"
+  },
+  {
+    "id": 29,
+    "question": "How do breathing exercises help?",
+    "alternate_questions": ["Benefits of deep breathing", "Does breathing help anxiety?", "Breathing techniques for stress"],
+    "answer": "Breathing exercises activate your body's relaxation response, reducing stress hormones and calming your nervous system.",
+    "keywords": ["breathing", "relaxation", "stress"],
+    "category": "stress",
+    "intent_type": "cause"
+  },
+  {
+    "id": 30,
+    "question": "I feel like nothing matters anymore",
+    "alternate_questions": ["Everything feels meaningless", "I don't see the point in anything", "Why does life feel empty?"],
+    "answer": "Feeling this way is often linked to depression and can be very painful. Talking to someone you trust or a mental health professional can help you find support and meaning.",
+    "keywords": ["meaningless", "depression", "empty"],
+    "category": "emotional",
+    "intent_type": "emotional"
+  },
+  {
+    "id": 31,
+    "question": "Why do I feel like a burden?",
+    "alternate_questions": ["I feel like I'm bothering everyone", "Am I useless?", "I feel unwanted"],
+    "answer": "These feelings often come from low self-esteem or depression, but you matter more than you think. Consider reaching out to someone who cares about you.",
+    "keywords": ["burden", "worthless", "self-esteem"],
+    "category": "self_esteem",
+    "intent_type": "emotional"
+  },
+  {
+    "id": 32,
+    "question": "I don't feel like living anymore",
+    "alternate_questions": ["I want to give up", "Life feels pointless", "I don't want to be here"],
+    "answer": "You are not alone, and these feelings can get better with support. Please reach out to someone you trust or contact a crisis helpline immediately.",
+    "keywords": ["suicidal", "crisis", "hopeless"],
+    "category": "crisis",
+    "intent_type": "emotional"
+  },
+  {
+    "id": 33,
+    "question": "Why does everything feel hopeless?",
+    "alternate_questions": ["I feel like nothing will get better", "Everything feels impossible", "I have no hope"],
+    "answer": "Hopelessness is often a symptom of depression. With the right support and treatment, things can improve, even when it doesn't feel possible right now.",
+    "keywords": ["hopeless", "depression", "despair"],
+    "category": "depression",
+    "intent_type": "emotional"
+  },
+  {
+    "id": 34,
+    "question": "I've lost interest in everything",
+    "alternate_questions": ["Nothing feels fun anymore", "I don't enjoy anything", "Why don't I care about my hobbies?"],
+    "answer": "Loss of interest is a common symptom of depression. Reaching out for support from a therapist or trusted person is an important step.",
+    "keywords": ["depression", "anhedonia", "no interest"],
+    "category": "depression",
+    "intent_type": "emotional"
+  },
+  {
+    "id": 35,
+    "question": "How do I deal with loneliness?",
+    "alternate_questions": ["I feel so alone", "How to stop feeling lonely?", "What helps with isolation?"],
+    "answer": "Try reaching out to friends or family, joining communities or groups with shared interests, and seeking meaningful connections, even small ones.",
+    "keywords": ["lonely", "isolation", "alone"],
+    "category": "emotional",
+    "intent_type": "coping"
+  },
+  {
+    "id": 36,
+    "question": "What is emotional regulation?",
+    "alternate_questions": ["How do I control my emotions?", "What does emotional regulation mean?", "Managing intense feelings"],
+    "answer": "Emotional regulation is the ability to recognize, understand, and manage your emotions in healthy ways rather than being overwhelmed by them.",
+    "keywords": ["emotion", "regulation", "control"],
+    "category": "emotional",
+    "intent_type": "definition"
+  },
+  {
+    "id": 37,
+    "question": "How can I stop negative thinking?",
+    "alternate_questions": ["How to control negative thoughts?", "I keep thinking the worst", "Stop spiraling thoughts"],
+    "answer": "Challenge negative thoughts by questioning their accuracy, looking for evidence against them, and replacing them with balanced, realistic perspectives.",
+    "keywords": ["negative thoughts", "rumination", "cognitive"],
+    "category": "cognitive",
+    "intent_type": "coping"
+  },
+  {
+    "id": 38,
+    "question": "What is panic disorder?",
+    "alternate_questions": ["What does panic disorder mean?", "Why do I have frequent panic attacks?", "Explain panic disorder"],
+    "answer": "Panic disorder involves repeated, unexpected panic attacks and ongoing fear of having more attacks, which can lead to avoidance behaviors.",
+    "keywords": ["panic", "panic disorder", "anxiety"],
+    "category": "anxiety",
+    "intent_type": "definition"
+  },
+  {
+    "id": 39,
+    "question": "How do I set healthy boundaries?",
+    "alternate_questions": ["How to say no?", "Setting personal limits", "How do I protect my mental space?"],
+    "answer": "Communicate your limits clearly and respectfully, prioritize your needs, and be consistent in maintaining the boundaries you set.",
+    "keywords": ["boundaries", "limits", "self-care"],
+    "category": "self_growth",
+    "intent_type": "coping"
+  },
+  {
+    "id": 40,
+    "question": "What is DBT therapy?",
+    "alternate_questions": ["What does DBT mean?", "Explain dialectical behavior therapy", "What is DBT used for?"],
+    "answer": "DBT (Dialectical Behavior Therapy) focuses on teaching emotional regulation, distress tolerance, mindfulness, and interpersonal effectiveness skills.",
+    "keywords": ["dbt", "therapy", "skills"],
+    "category": "therapy",
+    "intent_type": "definition"
+  },
+  {
+    "id": 41,
+    "question": "What is trauma?",
+    "alternate_questions": ["What does trauma mean?", "How does trauma affect you?", "Explain emotional trauma"],
+    "answer": "Trauma is a lasting emotional response to distressing events that can affect mental health, relationships, and how you see the world.",
+    "keywords": ["trauma", "distress", "emotional"],
+    "category": "trauma",
+    "intent_type": "definition"
+  },
+  {
+    "id": 42,
+    "question": "What is EMDR therapy?",
+    "alternate_questions": ["What does EMDR mean?", "Eye movement therapy for trauma", "How does EMDR work?"],
+    "answer": "EMDR (Eye Movement Desensitization and Reprocessing) helps process traumatic memories through guided eye movements and therapeutic techniques.",
+    "keywords": ["emdr", "trauma", "therapy"],
+    "category": "therapy",
+    "intent_type": "definition"
+  },
+  {
+    "id": 43,
+    "question": "How does social media affect mental health?",
+    "alternate_questions": ["Is social media bad for mental health?", "Does social media cause anxiety?", "Effects of too much screen time"],
+    "answer": "Excessive social media use can increase anxiety, depression, comparison, and poor self-image, especially when it replaces real-life connections.",
+    "keywords": ["social media", "anxiety", "comparison"],
+    "category": "stress",
+    "intent_type": "cause"
+  },
+  {
+    "id": 44,
+    "question": "What is body dysmorphic disorder?",
+    "alternate_questions": ["What does BDD mean?", "Body image disorder explained", "Obsessing over appearance"],
+    "answer": "BDD (Body Dysmorphic Disorder) involves obsessive preoccupation with perceived flaws in appearance that others often don't notice.",
+    "keywords": ["bdd", "body image", "appearance"],
+    "category": "mental_disorders",
+    "intent_type": "definition"
+  },
+{
+  "id": 45,
+  "question": "what is panic disorder",
+  "alternate_questions": ["panic disorder meaning", "frequent panic attacks", "what causes panic disorder"],
+  "answer": "Panic disorder involves repeated panic attacks and ongoing fear of having more attacks.",
+  "keywords": ["panic", "anxiety"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 46,
+  "question": "how do i set healthy boundaries with people",
+  "alternate_questions": ["how to say no", "set personal limits", "protect my time"],
+  "answer": "Set boundaries by clearly communicating your limits and consistently respecting your own needs.",
+  "keywords": ["boundaries"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 47,
+  "question": "what is emotional trauma",
+  "alternate_questions": ["trauma meaning", "effects of trauma", "what is psychological trauma"],
+  "answer": "Emotional trauma is a response to distressing events that can affect thoughts, feelings, and behavior.",
+  "keywords": ["trauma"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 48,
+  "question": "what is emdr therapy used for",
+  "alternate_questions": ["emdr meaning", "eye movement therapy", "trauma therapy emdr"],
+  "answer": "EMDR is a therapy that helps process traumatic memories using guided eye movements.",
+  "keywords": ["emdr"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 49,
+  "question": "how does social media affect mental health",
+  "alternate_questions": ["social media anxiety", "online stress effects", "social media impact"],
+  "answer": "Excessive social media use can increase anxiety, comparison, and lower self-esteem.",
+  "keywords": ["social media"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 50,
+  "question": "what is body dysmorphic disorder",
+  "alternate_questions": ["bdd meaning", "body image disorder", "appearance anxiety"],
+  "answer": "Body dysmorphic disorder involves intense focus on perceived flaws in appearance.",
+  "keywords": ["bdd"],
+  "category": "self-esteem",
+  "intent_type": "definition"
+},
+{
+  "id": 51,
+  "question": "how can i cope with depression",
+  "alternate_questions": ["deal with depression", "help during depressive episode", "manage depression"],
+  "answer": "Start with small routines, seek support, and focus on gradual progress.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "coping"
+},
+{
+  "id": 52,
+  "question": "what is the difference between psychologist and psychiatrist",
+  "alternate_questions": ["psychologist vs psychiatrist", "mental health doctor difference"],
+  "answer": "Psychologists provide therapy, while psychiatrists can prescribe medication.",
+  "keywords": ["therapy"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 53,
+  "question": "how does alcohol affect mental health",
+  "alternate_questions": ["alcohol and depression", "drinking effects anxiety"],
+  "answer": "Alcohol can worsen anxiety, depression, and disrupt sleep patterns.",
+  "keywords": ["alcohol"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 54,
+  "question": "what is exposure therapy",
+  "alternate_questions": ["fear therapy", "facing fears gradually"],
+  "answer": "Exposure therapy helps reduce fear by gradually facing triggers in a controlled way.",
+  "keywords": ["exposure"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 55,
+  "question": "how can i take care of my mental health daily",
+  "alternate_questions": ["daily mental health habits", "stay mentally healthy"],
+  "answer": "Maintain routines, exercise regularly, sleep well, and stay connected with others.",
+  "keywords": ["mental health"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 56,
+  "question": "what is emotional abuse in relationships",
+  "alternate_questions": ["signs of emotional abuse", "psychological abuse"],
+  "answer": "Emotional abuse involves manipulation, control, or constant criticism that harms well-being.",
+  "keywords": ["abuse"],
+  "category": "relationships",
+  "intent_type": "definition"
+},
+{
+  "id": 57,
+  "question": "what is neurodiversity",
+  "alternate_questions": ["neurodiversity meaning", "brain differences"],
+  "answer": "Neurodiversity refers to natural variations in how people's brains function.",
+  "keywords": ["neurodiversity"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 58,
+  "question": "how do i manage stress at work",
+  "alternate_questions": ["job stress help", "office stress handling"],
+  "answer": "Set boundaries, prioritize tasks, and take regular breaks to manage work stress.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 59,
+  "question": "what is the gut brain connection",
+  "alternate_questions": ["gut mental health link", "brain gut relationship"],
+  "answer": "The gut-brain connection links digestion and mental well-being through biological signals.",
+  "keywords": ["gut"],
+  "category": "stress",
+  "intent_type": "definition"
+},
+{
+  "id": 60,
+  "question": "how can i build good habits",
+  "alternate_questions": ["habit building tips", "create routines"],
+  "answer": "Start small, stay consistent, and track your progress over time.",
+  "keywords": ["habits"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 61,
+  "question": "what is alexithymia",
+  "alternate_questions": ["cant describe feelings", "emotion recognition problem"],
+  "answer": "Alexithymia is difficulty identifying and expressing emotions.",
+  "keywords": ["alexithymia"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 62,
+  "question": "how do i talk to my family about my mental health",
+  "alternate_questions": ["talk to parents about feelings", "discuss mental health"],
+  "answer": "Be honest, use simple language, and express your feelings calmly.",
+  "keywords": ["communication"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 63,
+  "question": "what is compassion fatigue",
+  "alternate_questions": ["caregiver burnout", "helping others exhaustion"],
+  "answer": "Compassion fatigue is emotional exhaustion from continuously caring for others.",
+  "keywords": ["fatigue"],
+  "category": "stress",
+  "intent_type": "definition"
+},
+{
+  "id": 64,
+  "question": "what are eating disorders",
+  "alternate_questions": ["food related mental health issues"],
+  "answer": "Eating disorders involve unhealthy relationships with food and body image.",
+  "keywords": ["eating"],
+  "category": "self-esteem",
+  "intent_type": "definition"
+},
+{
+  "id": 65,
+  "question": "how do i cope with a breakup",
+  "alternate_questions": ["move on after breakup", "relationship loss"],
+  "answer": "Allow your emotions, seek support, and focus on healing gradually.",
+  "keywords": ["breakup"],
+  "category": "relationships",
+  "intent_type": "coping"
+},
+{
+  "id": 66,
+  "question": "what is dissociation",
+  "alternate_questions": ["feeling disconnected from reality"],
+  "answer": "Dissociation is a feeling of disconnection from reality, thoughts, or identity.",
+  "keywords": ["dissociation"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 67,
+  "question": "how does being in nature help mental health",
+  "alternate_questions": ["nature benefits mental health"],
+  "answer": "Spending time in nature can reduce stress and improve mood.",
+  "keywords": ["nature"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 68,
+  "question": "what is psychosis",
+  "alternate_questions": ["hallucination disorder"],
+  "answer": "Psychosis involves losing touch with reality, such as hallucinations or delusions.",
+  "keywords": ["psychosis"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 69,
+  "question": "how does creativity help mental health",
+  "alternate_questions": ["art therapy benefits"],
+  "answer": "Creative activities help express emotions and reduce stress.",
+  "keywords": ["creativity"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 70,
+  "question": "what mental health support is available in india",
+  "alternate_questions": ["india helplines", "mental health support india"],
+  "answer": "Support includes Tele-MANAS (14416), AASRA, and Vandrevala Foundation.",
+  "keywords": ["helpline"],
+  "category": "emotional",
+  "intent_type": "support"
+},
+
+  {
+  "id": 71,
+  "question": "why do i feel anxious all the time",
+  "alternate_questions": ["why am i always anxious", "constant anxiety reasons", "cant stop worrying"],
+  "answer": "Frequent anxiety can come from stress, overthinking, or lack of rest.",
+  "keywords": ["anxiety", "worry"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 72,
+  "question": "how can i calm anxiety quickly",
+  "alternate_questions": ["quick anxiety relief", "stop anxiety instantly", "calm panic fast"],
+  "answer": "Use slow breathing, grounding techniques, and remind yourself the feeling will pass.",
+  "keywords": ["anxiety", "calm"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 73,
+  "question": "why do i feel lonely even around people",
+  "alternate_questions": ["feeling lonely reasons", "emotional loneliness", "why am i alone emotionally"],
+  "answer": "Loneliness can come from lack of emotional connection even if you're around others.",
+  "keywords": ["lonely", "isolation"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 74,
+  "question": "how do i stop overthinking everything",
+  "alternate_questions": ["control overthinking", "why do i overthink", "stop thinking too much"],
+  "answer": "Practice mindfulness, limit rumination, and focus on present actions.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 75,
+  "question": "how do i cope with stress effectively",
+  "alternate_questions": ["manage stress", "reduce stress", "handle pressure"],
+  "answer": "Exercise, relaxation techniques, and better time management can help reduce stress.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 76,
+  "question": "how can i stay motivated consistently",
+  "alternate_questions": ["stay consistent", "motivation tips", "how to stay focused"],
+  "answer": "Set small goals, track progress, and reward yourself for progress.",
+  "keywords": ["motivation"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 77,
+  "question": "why do i feel empty inside",
+  "alternate_questions": ["feeling numb", "emotional emptiness", "no emotions"],
+  "answer": "Emotional emptiness can be linked to depression, burnout, or emotional fatigue.",
+  "keywords": ["empty"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 78,
+  "question": "how can i improve my focus and concentration",
+  "alternate_questions": ["better concentration", "increase attention", "focus tips"],
+  "answer": "Reduce distractions, sleep well, and break tasks into smaller steps.",
+  "keywords": ["focus"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 79,
+  "question": "how do i deal with failure emotionally",
+  "alternate_questions": ["coping with failure", "recover from failure", "failure lessons"],
+  "answer": "Learn from mistakes and focus on growth instead of self-blame.",
+  "keywords": ["failure"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 80,
+  "question": "how do i control my anger better",
+  "alternate_questions": ["manage anger", "stop anger", "anger issues"],
+  "answer": "Pause, breathe, and identify triggers before reacting.",
+  "keywords": ["anger"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 81,
+  "question": "why do i feel nervous in social situations",
+  "alternate_questions": ["social anxiety reasons", "fear of social interaction", "nervous around people"],
+  "answer": "This is often due to social anxiety, which involves fear of judgment or embarrassment.",
+  "keywords": ["social anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 82,
+  "question": "how can i become mentally stronger",
+  "alternate_questions": ["build mental strength", "increase resilience", "become emotionally strong"],
+  "answer": "Mental strength builds through resilience, self-awareness, and handling challenges positively.",
+  "keywords": ["resilience"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 83,
+  "question": "why do i feel like crying for no reason",
+  "alternate_questions": ["random crying reasons", "unexpected sadness", "sudden emotions"],
+  "answer": "Sudden emotional feelings can be due to stress, fatigue, or underlying emotional pressure.",
+  "keywords": ["sad"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 84,
+  "question": "how do i stop overthinking at night",
+  "alternate_questions": ["night overthinking", "cant sleep due to thoughts", "thinking before sleep"],
+  "answer": "Try journaling, deep breathing, and limiting screen time before bed.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 85,
+  "question": "why do i feel stressed even without a reason",
+  "alternate_questions": ["stress without reason", "always stressed feeling", "unexplained stress"],
+  "answer": "Stress can come from internal thoughts, unresolved emotions, or lifestyle habits.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 86,
+  "question": "how do i feel better mentally when im low",
+  "alternate_questions": ["improve mental state", "feel better emotionally", "mental health tips"],
+  "answer": "Focus on self-care, talk to someone, and engage in activities you enjoy.",
+  "keywords": ["mental health"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 87,
+  "question": "why do i lose interest in things quickly",
+  "alternate_questions": ["lose motivation fast", "cant stay interested", "short attention issues"],
+  "answer": "Loss of interest can be linked to stress, burnout, or low motivation.",
+  "keywords": ["motivation"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 88,
+  "question": "how can i improve my mood naturally",
+  "alternate_questions": ["boost mood", "feel happier", "improve emotions"],
+  "answer": "Exercise, social interaction, and hobbies can help improve mood.",
+  "keywords": ["mood"],
+  "category": "depression",
+  "intent_type": "coping"
+},
+{
+  "id": 89,
+  "question": "why do i feel disconnected from people",
+  "alternate_questions": ["emotional disconnect", "cant connect with others", "feeling distant"],
+  "answer": "Disconnection can come from emotional stress or lack of meaningful relationships.",
+  "keywords": ["disconnect"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 90,
+  "question": "how do i stop comparing myself to others",
+  "alternate_questions": ["stop comparison", "compare less", "self comparison issue"],
+  "answer": "Focus on your own progress and limit exposure to comparison triggers.",
+  "keywords": ["comparison"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 91,
+  "question": "why do i feel anxious in public places",
+  "alternate_questions": ["public anxiety", "fear in crowds", "anxiety outside"],
+  "answer": "Public anxiety can come from fear of judgment or panic in crowded environments.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 92,
+  "question": "how do i relax after a stressful day",
+  "alternate_questions": ["relax after work", "unwind after stress"],
+  "answer": "Listen to music, meditate, or do something calming that you enjoy.",
+  "keywords": ["relax"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 93,
+  "question": "why do i feel mentally drained all the time",
+  "alternate_questions": ["mental exhaustion", "feeling drained"],
+  "answer": "Mental exhaustion can result from stress, overwork, or lack of rest.",
+  "keywords": ["fatigue"],
+  "category": "stress",
+  "intent_type": "symptoms"
+},
+{
+  "id": 94,
+  "question": "how can i control my emotions better",
+  "alternate_questions": ["manage emotions", "emotional control"],
+  "answer": "Pause before reacting, understand triggers, and practice mindfulness.",
+  "keywords": ["emotion"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 95,
+  "question": "why do i feel insecure about myself",
+  "alternate_questions": ["low confidence", "self doubt issues"],
+  "answer": "Insecurity often comes from low self-esteem or past experiences.",
+  "keywords": ["insecurity"],
+  "category": "self-esteem",
+  "intent_type": "cause"
+},
+{
+  "id": 96,
+  "question": "how do i deal with rejection",
+  "alternate_questions": ["coping with rejection", "fear of rejection"],
+  "answer": "Focus on growth and avoid taking rejection personally.",
+  "keywords": ["rejection"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 97,
+  "question": "why do i feel overwhelmed so easily",
+  "alternate_questions": ["easily overwhelmed", "too much stress"],
+  "answer": "Feeling overwhelmed happens when demands exceed your capacity.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 98,
+  "question": "how do i stay calm under pressure",
+  "alternate_questions": ["handle pressure calmly", "control stress response"],
+  "answer": "Focus on breathing and handle one task at a time.",
+  "keywords": ["pressure"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 99,
+  "question": "why do i feel restless all the time",
+  "alternate_questions": ["restlessness causes", "feeling uneasy"],
+  "answer": "Restlessness can be linked to anxiety, stress, or lack of activity.",
+  "keywords": ["restless"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 100,
+  "question": "how can i feel more positive in daily life",
+  "alternate_questions": ["think positive", "improve positivity"],
+  "answer": "Practice gratitude, focus on small wins, and stay around positive influences.",
+  "keywords": ["positive"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 101,
+  "question": "how can i calm myself during anxiety",
+  "alternate_questions": ["how to calm anxiety quickly", "ways to relax during anxiety", "stop anxiety instantly"],
+  "answer": "Try slow breathing, grounding techniques, and focus on your surroundings to calm anxiety.",
+  "keywords": ["anxiety", "calm"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 102,
+  "question": "why do i feel sad for no reason",
+  "alternate_questions": ["unexplained sadness", "feeling low without reason"],
+  "answer": "Sudden sadness can come from emotional stress, fatigue, or underlying mental strain.",
+  "keywords": ["sad", "low mood"],
+  "category": "depression",
+  "intent_type": "cause"
+},
+{
+  "id": 103,
+  "question": "how can i improve my sleep",
+  "alternate_questions": ["how to sleep better", "fix sleep problems"],
+  "answer": "Maintain a routine, reduce screen time, and create a calm environment before sleep.",
+  "keywords": ["sleep"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 104,
+  "question": "how do i handle stress at work",
+  "alternate_questions": ["work stress management", "deal with job stress"],
+  "answer": "Prioritize tasks, take breaks, and set clear boundaries to manage work stress.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 105,
+  "question": "how can i boost my confidence",
+  "alternate_questions": ["build confidence", "improve self-esteem"],
+  "answer": "Build confidence by focusing on strengths, setting small goals, and practicing positive self-talk.",
+  "keywords": ["confidence"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 106,
+  "question": "why do i overthink everything",
+  "alternate_questions": ["overthinking causes", "thinking too much"],
+  "answer": "Overthinking often comes from anxiety or fear of uncertainty.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 107,
+  "question": "how do i move on after a breakup",
+  "alternate_questions": ["recover from breakup", "heal after breakup"],
+  "answer": "Focus on self-care, stay connected with others, and allow time to heal.",
+  "keywords": ["breakup"],
+  "category": "relationships",
+  "intent_type": "coping"
+},
+{
+  "id": 108,
+  "question": "how do i stay motivated",
+  "alternate_questions": ["stay motivated daily", "stay consistent"],
+  "answer": "Set small goals, track progress, and reward yourself for consistency.",
+  "keywords": ["motivation"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 109,
+  "question": "how do i stop negative thoughts",
+  "alternate_questions": ["control negative thinking", "remove bad thoughts"],
+  "answer": "Challenge negative thoughts and replace them with realistic perspectives.",
+  "keywords": ["negative thoughts"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 110,
+  "question": "why do i feel tired all the time",
+  "alternate_questions": ["constant fatigue", "low energy causes"],
+  "answer": "Tiredness can result from stress, poor sleep, or mental exhaustion.",
+  "keywords": ["fatigue"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 111,
+  "question": "how can i relax my mind",
+  "alternate_questions": ["calm the mind", "reduce mental stress"],
+  "answer": "Meditation, deep breathing, or hobbies can help relax your mind.",
+  "keywords": ["relax"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 112,
+  "question": "why do i feel like a burden",
+  "alternate_questions": ["feel unwanted", "low self-worth"],
+  "answer": "This feeling often comes from low self-esteem or emotional distress.",
+  "keywords": ["burden"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 113,
+  "question": "why do i feel overwhelmed",
+  "alternate_questions": ["too much stress feeling", "cant handle everything"],
+  "answer": "Feeling overwhelmed happens when demands exceed your capacity.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 114,
+  "question": "how do i deal with failure",
+  "alternate_questions": ["coping with failure", "failure recovery"],
+  "answer": "Learn from mistakes and focus on growth instead of self-blame.",
+  "keywords": ["failure"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 115,
+  "question": "how can i control anger",
+  "alternate_questions": ["manage anger", "stop anger"],
+  "answer": "Pause, breathe, and understand triggers before reacting.",
+  "keywords": ["anger"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 116,
+  "question": "why do i feel empty inside",
+  "alternate_questions": ["emotional numbness", "no emotions feeling"],
+  "answer": "Feeling empty can be linked to emotional exhaustion or depression.",
+  "keywords": ["empty"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 117,
+  "question": "how do i build better habits",
+  "alternate_questions": ["creating habits", "habit building tips"],
+  "answer": "Start small, stay consistent, and track progress over time.",
+  "keywords": ["habits"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 118,
+  "question": "what is adhd in adults",
+  "alternate_questions": ["adult adhd symptoms", "attention issues adults"],
+  "answer": "ADHD in adults involves difficulty focusing, impulsivity, and restlessness.",
+  "keywords": ["adhd"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 119,
+  "question": "why cant i focus on tasks",
+  "alternate_questions": ["trouble concentrating", "focus issues"],
+  "answer": "Focus issues can be linked to stress, ADHD, or lack of structure.",
+  "keywords": ["focus"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 120,
+  "question": "how do i manage adhd symptoms",
+  "alternate_questions": ["adhd coping strategies", "handle attention issues"],
+  "answer": "Use structured routines, break tasks, and minimize distractions.",
+  "keywords": ["adhd"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 121,
+  "question": "why do i get distracted easily",
+  "alternate_questions": ["easily distracted", "attention problems"],
+  "answer": "Distraction can come from overstimulation, stress, or attention issues.",
+  "keywords": ["focus"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 122,
+  "question": "how can i improve my attention span",
+  "alternate_questions": ["increase focus time", "better concentration"],
+  "answer": "Reduce distractions, use timers, and practice focused work sessions.",
+  "keywords": ["focus"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 123,
+  "question": "what are common adhd symptoms",
+  "alternate_questions": ["signs of adhd", "adhd indicators"],
+  "answer": "Common symptoms include inattention, impulsivity, and hyperactivity.",
+  "keywords": ["adhd"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 124,
+  "question": "why do i procrastinate so much",
+  "alternate_questions": ["constant procrastination", "avoiding tasks"],
+  "answer": "Procrastination often comes from overwhelm, fear, or lack of motivation.",
+  "keywords": ["procrastination"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 125,
+  "question": "how do i stay organized",
+  "alternate_questions": ["stay structured", "organization tips"],
+  "answer": "Use planners, reminders, and structured routines to stay organized.",
+  "keywords": ["organization"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 126,
+  "question": "why do i forget things easily",
+  "alternate_questions": ["memory issues", "forgetfulness reasons"],
+  "answer": "Forgetfulness can result from stress, distraction, or lack of focus.",
+  "keywords": ["memory"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 127,
+  "question": "how do i reduce impulsive behavior",
+  "alternate_questions": ["control impulsivity", "think before acting"],
+  "answer": "Pause before acting, increase awareness, and build structured habits.",
+  "keywords": ["impulsivity"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 128,
+  "question": "can adhd affect emotions",
+  "alternate_questions": ["adhd emotional issues", "mood swings adhd"],
+  "answer": "ADHD can cause emotional sensitivity and difficulty regulating emotions.",
+  "keywords": ["adhd", "emotion"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 129,
+  "question": "how do i focus while studying",
+  "alternate_questions": ["study focus tips", "cant focus on studies"],
+  "answer": "Use short study sessions, take breaks, and remove distractions.",
+  "keywords": ["focus"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 130,
+  "question": "why do i start things and not finish them",
+  "alternate_questions": ["lose interest quickly", "cant complete tasks"],
+  "answer": "This often happens due to lack of sustained attention or motivation.",
+  "keywords": ["focus"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 131,
+  "question": "how do i manage time better",
+  "alternate_questions": ["time management tips", "track time better"],
+  "answer": "Use timers, reminders, and structured schedules to manage time.",
+  "keywords": ["time"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 132,
+  "question": "what is time blindness",
+  "alternate_questions": ["lose track of time", "time perception issue"],
+  "answer": "Time blindness is difficulty sensing time, often linked to attention issues.",
+  "keywords": ["time"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 133,
+  "question": "why do i feel restless all the time",
+  "alternate_questions": ["cant sit still", "restlessness reasons"],
+  "answer": "Restlessness can come from anxiety, stress, or high mental activity.",
+  "keywords": ["restless"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 134,
+  "question": "how does adhd affect daily life",
+  "alternate_questions": ["adhd daily problems", "living with adhd"],
+  "answer": "ADHD can affect focus, productivity, and emotional regulation.",
+  "keywords": ["adhd"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 135,
+  "question": "what is ptsd",
+  "alternate_questions": ["ptsd meaning", "trauma disorder"],
+  "answer": "PTSD is a condition caused by trauma, leading to flashbacks, anxiety, and distress.",
+  "keywords": ["ptsd"],
+  "category": "emotional",
+  "intent_type": "definition"
+},
+{
+  "id": 136,
+  "question": "what are common ptsd symptoms",
+  "alternate_questions": ["signs of ptsd", "trauma symptoms"],
+  "answer": "Symptoms include flashbacks, nightmares, avoidance, and heightened anxiety.",
+  "keywords": ["ptsd"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 137,
+  "question": "why do i keep reliving past trauma",
+  "alternate_questions": ["flashbacks meaning", "trauma memories coming back"],
+  "answer": "Reliving trauma through flashbacks is a common response to unresolved trauma.",
+  "keywords": ["trauma"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 138,
+  "question": "how do i cope with traumatic memories",
+  "alternate_questions": ["deal with trauma", "handle past trauma"],
+  "answer": "Use grounding techniques, therapy, and gradual processing to cope.",
+  "keywords": ["trauma"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 139,
+  "question": "why do i avoid certain places or people",
+  "alternate_questions": ["avoid triggers", "avoidance behavior"],
+  "answer": "Avoidance happens to prevent triggering distressing memories or emotions.",
+  "keywords": ["avoidance"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 140,
+  "question": "what triggers trauma responses",
+  "alternate_questions": ["trauma triggers", "what causes flashbacks"],
+  "answer": "Triggers can include sounds, smells, or situations linked to past trauma.",
+  "keywords": ["triggers"],
+  "category": "emotional",
+  "intent_type": "cause"
+},
+{
+  "id": 141,
+  "question": "how can i feel safe again after trauma",
+  "alternate_questions": ["recover from trauma", "feel secure again"],
+  "answer": "Building routines and seeking support can help restore a sense of safety.",
+  "keywords": ["safety"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 142,
+  "question": "why do i feel constantly on edge",
+  "alternate_questions": ["always alert feeling", "cant relax"],
+  "answer": "This can happen due to heightened alertness after stress or trauma.",
+  "keywords": ["alert"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 143,
+  "question": "can trauma affect sleep",
+  "alternate_questions": ["trauma insomnia", "nightmares trauma"],
+  "answer": "Trauma can lead to nightmares and difficulty sleeping.",
+  "keywords": ["sleep"],
+  "category": "stress",
+  "intent_type": "cause"
+},
+{
+  "id": 144,
+  "question": "how do i stop nightmares",
+  "alternate_questions": ["bad dreams help", "reduce nightmares"],
+  "answer": "Relaxation techniques and therapy can help reduce frequent nightmares.",
+  "keywords": ["nightmares"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 145,
+  "question": "what is emotional numbness",
+  "alternate_questions": ["feeling numb", "no emotions"],
+  "answer": "Emotional numbness is reduced ability to feel emotions, often linked to stress or trauma.",
+  "keywords": ["numb"],
+  "category": "depression",
+  "intent_type": "definition"
+},
+{
+  "id": 146,
+  "question": "how can therapy help trauma",
+  "alternate_questions": ["trauma therapy benefits", "healing trauma"],
+  "answer": "Therapy helps process experiences and reduce emotional distress.",
+  "keywords": ["therapy"],
+  "category": "emotional",
+  "intent_type": "support"
+},
+{
+  "id": 147,
+  "question": "why do i feel detached from reality",
+  "alternate_questions": ["feeling unreal", "dissociation"],
+  "answer": "This can happen as a response to stress or trauma and is called dissociation.",
+  "keywords": ["dissociation"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 148,
+  "question": "can trauma get better over time",
+  "alternate_questions": ["trauma recovery", "healing from trauma"],
+  "answer": "With support and coping strategies, trauma symptoms can improve over time.",
+  "keywords": ["trauma"],
+  "category": "emotional",
+  "intent_type": "support"
+},
+{
+  "id": 149,
+  "question": "how do i manage triggers",
+  "alternate_questions": ["control triggers", "avoid triggers"],
+  "answer": "Identify triggers and use grounding techniques to manage responses.",
+  "keywords": ["triggers"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 150,
+  "question": "what is ocd",
+  "alternate_questions": ["ocd meaning", "obsessive compulsive disorder"],
+  "answer": "OCD involves unwanted thoughts and repetitive behaviors used to reduce anxiety.",
+  "keywords": ["ocd"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 151,
+  "question": "what are common ocd symptoms",
+  "alternate_questions": ["signs of ocd", "ocd behaviors"],
+  "answer": "Symptoms include intrusive thoughts and repetitive actions.",
+  "keywords": ["ocd"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 152,
+  "question": "why do i have intrusive thoughts",
+  "alternate_questions": ["unwanted thoughts", "random disturbing thoughts"],
+  "answer": "Intrusive thoughts are common in anxiety and are unwanted and repetitive.",
+  "keywords": ["intrusive thoughts"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 153,
+  "question": "how do i stop obsessive thinking",
+  "alternate_questions": ["control obsessions", "stop repeated thoughts"],
+  "answer": "Mindfulness and therapy techniques can help manage obsessive thinking.",
+  "keywords": ["obsession"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 154,
+  "question": "why do i repeat actions",
+  "alternate_questions": ["compulsions meaning", "checking behavior"],
+  "answer": "Repeating actions can be a way to reduce anxiety caused by intrusive thoughts.",
+  "keywords": ["compulsions"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 155,
+  "question": "what are compulsions",
+  "alternate_questions": ["ocd rituals", "repetitive actions"],
+  "answer": "Compulsions are repeated behaviors done to reduce anxiety.",
+  "keywords": ["compulsions"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 156,
+  "question": "how can i manage ocd symptoms",
+  "alternate_questions": ["ocd coping", "control compulsions"],
+  "answer": "Use therapy, exposure techniques, and resist compulsive behaviors gradually.",
+  "keywords": ["ocd"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 157,
+  "question": "why do i check things repeatedly",
+  "alternate_questions": ["checking behavior", "cant stop checking"],
+  "answer": "Repeated checking is a compulsion often driven by anxiety and doubt.",
+  "keywords": ["checking"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 158,
+  "question": "can ocd be managed over time",
+  "alternate_questions": ["ocd recovery", "is ocd permanent"],
+  "answer": "OCD can be managed effectively with therapy and consistent coping strategies.",
+  "keywords": ["ocd"],
+  "category": "anxiety",
+  "intent_type": "support"
+},
+{
+  "id": 159,
+  "question": "what triggers obsessive thoughts",
+  "alternate_questions": ["ocd triggers", "intrusive thoughts cause"],
+  "answer": "Triggers often include stress, uncertainty, or specific fears.",
+  "keywords": ["triggers"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 160,
+  "question": "how does therapy help ocd",
+  "alternate_questions": ["cbt for ocd", "ocd treatment"],
+  "answer": "Therapy helps identify patterns and reduce compulsive behaviors.",
+  "keywords": ["therapy"],
+  "category": "anxiety",
+  "intent_type": "support"
+},
+{
+  "id": 161,
+  "question": "what is exposure and response prevention",
+  "alternate_questions": ["erp therapy", "ocd exposure therapy"],
+  "answer": "ERP is a method where you face fears without performing compulsions.",
+  "keywords": ["erp"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 162,
+  "question": "why do i feel anxious if i skip rituals",
+  "alternate_questions": ["ritual anxiety", "compulsion anxiety"],
+  "answer": "Skipping rituals increases anxiety because compulsions are used to reduce fear.",
+  "keywords": ["rituals"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 163,
+  "question": "how can i reduce compulsive behaviors",
+  "alternate_questions": ["stop compulsions", "control rituals"],
+  "answer": "Gradually resist compulsions and use structured coping techniques.",
+  "keywords": ["compulsions"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 164,
+  "question": "is ocd related to anxiety",
+  "alternate_questions": ["ocd anxiety link"],
+  "answer": "OCD is closely related to anxiety and involves intrusive thoughts and compulsions.",
+  "keywords": ["ocd"],
+  "category": "anxiety",
+  "intent_type": "definition"
+},
+{
+  "id": 165,
+  "question": "why do i doubt everything",
+  "alternate_questions": ["constant doubt", "second guessing"],
+  "answer": "Excessive doubt is linked to anxiety and intrusive thought patterns.",
+  "keywords": ["doubt"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 166,
+  "question": "what is depression in simple terms",
+  "alternate_questions": ["depression meaning", "feeling depressed"],
+  "answer": "Depression is a condition involving persistent sadness and loss of interest.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "definition"
+},
+{
+  "id": 167,
+  "question": "what are symptoms of depression",
+  "alternate_questions": ["signs of depression", "depression indicators"],
+  "answer": "Symptoms include sadness, fatigue, low motivation, and loss of interest.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 168,
+  "question": "why do i feel sad all the time",
+  "alternate_questions": ["constant sadness", "always feeling low"],
+  "answer": "Persistent sadness may be linked to depression or emotional distress.",
+  "keywords": ["sad"],
+  "category": "depression",
+  "intent_type": "cause"
+},
+{
+  "id": 169,
+  "question": "why do i feel tired even after rest",
+  "alternate_questions": ["always exhausted", "low energy"],
+  "answer": "This can happen due to depression, stress, or poor sleep quality.",
+  "keywords": ["fatigue"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 170,
+  "question": "how do i cope with depression",
+  "alternate_questions": ["manage depression", "deal with low mood"],
+  "answer": "Start with small routines, seek support, and focus on gradual improvement.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "coping"
+},
+{
+  "id": 171,
+  "question": "why do i lose interest in things",
+  "alternate_questions": ["nothing feels enjoyable", "no motivation"],
+  "answer": "Loss of interest is a common symptom of depression.",
+  "keywords": ["motivation"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 172,
+  "question": "how does depression affect sleep",
+  "alternate_questions": ["sleep issues depression"],
+  "answer": "Depression can cause insomnia or excessive sleeping.",
+  "keywords": ["sleep"],
+  "category": "depression",
+  "intent_type": "cause"
+},
+{
+  "id": 173,
+  "question": "why do i feel hopeless",
+  "alternate_questions": ["no hope feeling"],
+  "answer": "Hopelessness is often linked to depression and emotional distress.",
+  "keywords": ["hopeless"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 174,
+  "question": "can depression improve over time",
+  "alternate_questions": ["depression recovery"],
+  "answer": "With support and treatment, depression can improve significantly.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "support"
+},
+{
+  "id": 175,
+  "question": "how can i feel better when im depressed",
+  "alternate_questions": ["improve mood", "feel better"],
+  "answer": "Focus on small actions like routine, movement, and reaching out for support.",
+  "keywords": ["depression"],
+  "category": "depression",
+  "intent_type": "coping"
+},
+{
+  "id": 176,
+  "question": "why do i isolate myself",
+  "alternate_questions": ["avoid people", "stay alone"],
+  "answer": "Isolation can be a response to emotional distress or depression.",
+  "keywords": ["isolation"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 177,
+  "question": "why do i feel like i have no purpose",
+  "alternate_questions": ["life feels meaningless"],
+  "answer": "This feeling can be linked to emotional distress or depression.",
+  "keywords": ["purpose"],
+  "category": "depression",
+  "intent_type": "emotional"
+},
+{
+  "id": 178,
+  "question": "why do i feel anxious for no reason",
+  "alternate_questions": ["random anxiety"],
+  "answer": "Anxiety can arise from internal stress or overthinking even without a clear cause.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 179,
+  "question": "how can i reduce constant anxiety",
+  "alternate_questions": ["control anxiety feelings"],
+  "answer": "Practice breathing, mindfulness, and reduce stress triggers.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 180,
+  "question": "why does my heart race during anxiety",
+  "alternate_questions": ["panic symptoms"],
+  "answer": "Anxiety activates the body's stress response, increasing heart rate.",
+  "keywords": ["panic"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 181,
+  "question": "how do i calm panic quickly",
+  "alternate_questions": ["stop panic"],
+  "answer": "Use slow breathing and grounding to calm your body.",
+  "keywords": ["panic"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 182,
+  "question": "why do i feel short of breath when anxious",
+  "alternate_questions": ["breathing anxiety"],
+  "answer": "Anxiety can cause rapid breathing leading to breathlessness.",
+  "keywords": ["breathing"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 183,
+  "question": "how do i stop worrying constantly",
+  "alternate_questions": ["constant worry"],
+  "answer": "Challenge thoughts and focus on what you can control.",
+  "keywords": ["worry"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 184,
+  "question": "why do i feel anxious in the morning",
+  "alternate_questions": ["morning anxiety"],
+  "answer": "Morning anxiety can be linked to stress and anticipation of the day.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 185,
+  "question": "how do i manage anxiety in public",
+  "alternate_questions": ["public anxiety"],
+  "answer": "Use grounding and focus on your surroundings to reduce anxiety.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 186,
+  "question": "why do i feel anxious before events",
+  "alternate_questions": ["anticipatory anxiety"],
+  "answer": "This is due to fear of future situations or uncertainty.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 187,
+  "question": "how do i manage anxiety long term",
+  "alternate_questions": ["long term anxiety"],
+  "answer": "Use therapy, lifestyle changes, and consistent coping strategies.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 188,
+  "question": "i feel like something is wrong with me",
+  "alternate_questions": ["i feel off", "i dont feel normal"],
+  "answer": "It's okay to feel unsure. Try identifying your emotions and talk to someone you trust.",
+  "keywords": ["confusion"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 189,
+  "question": "i feel lost in life",
+  "alternate_questions": ["no direction in life"],
+  "answer": "Feeling lost is common. Start with small goals and explore what matters to you.",
+  "keywords": ["lost"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 190,
+  "question": "nothing is going right for me",
+  "alternate_questions": ["everything is failing"],
+  "answer": "It may feel overwhelming, but setbacks are temporary and can improve.",
+  "keywords": ["stress"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 191,
+  "question": "i feel like giving up",
+  "alternate_questions": ["want to quit everything"],
+  "answer": "You’re not alone in feeling this way. Consider reaching out to someone you trust.",
+  "keywords": ["hopeless"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 192,
+  "question": "i hate myself",
+  "alternate_questions": ["self hate feeling"],
+  "answer": "These feelings are heavy. Try practicing self-compassion and talking to someone.",
+  "keywords": ["self worth"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 193,
+  "question": "why am i like this",
+  "alternate_questions": ["something wrong with me"],
+  "answer": "Self-reflection is natural. Understanding patterns can help you grow.",
+  "keywords": ["self reflection"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 194,
+  "question": "i dont feel like talking to anyone",
+  "alternate_questions": ["avoid people"],
+  "answer": "Taking space is okay, but small interactions can help over time.",
+  "keywords": ["isolation"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 195,
+  "question": "everything feels overwhelming",
+  "alternate_questions": ["too much to handle", "cant manage things"],
+  "answer": "Break tasks into smaller steps and focus on one thing at a time.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 196,
+  "question": "i feel like crying but i dont know why",
+  "alternate_questions": ["random crying", "sudden emotions"],
+  "answer": "Your emotions may need expression. Try journaling or talking to someone.",
+  "keywords": ["emotion"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 197,
+  "question": "i feel stuck in life",
+  "alternate_questions": ["not moving forward", "no progress feeling"],
+  "answer": "Feeling stuck happens sometimes. Start with small changes to regain momentum.",
+  "keywords": ["stuck"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 198,
+  "question": "i dont enjoy anything anymore",
+  "alternate_questions": ["nothing feels fun", "lost interest"],
+  "answer": "Loss of enjoyment can be linked to emotional distress or depression.",
+  "keywords": ["anhedonia"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 199,
+  "question": "i feel like no one understands me",
+  "alternate_questions": ["nobody gets me", "feel misunderstood"],
+  "answer": "Feeling misunderstood can be isolating. Try expressing yourself clearly to supportive people.",
+  "keywords": ["lonely"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 200,
+  "question": "i overthink everything i say",
+  "alternate_questions": ["overanalyzing conversations", "replaying conversations"],
+  "answer": "Overthinking conversations is common. Focus on the present instead of replaying events.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 201,
+  "question": "i feel like i am falling behind in life",
+  "alternate_questions": ["behind others", "not successful yet"],
+  "answer": "Everyone moves at their own pace. Focus on your own progress.",
+  "keywords": ["comparison"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 202,
+  "question": "i dont feel motivated to do anything",
+  "alternate_questions": ["no motivation", "cant start tasks"],
+  "answer": "Low motivation can come from stress or burnout. Start with small actions.",
+  "keywords": ["motivation"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 203,
+  "question": "i feel like i disappoint everyone",
+  "alternate_questions": ["feeling like a failure", "letting people down"],
+  "answer": "This feeling often comes from self-pressure. Try setting realistic expectations.",
+  "keywords": ["self worth"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 204,
+  "question": "i cant stop thinking about the past",
+  "alternate_questions": ["past regrets", "stuck in past"],
+  "answer": "Focusing on the past increases stress. Try grounding yourself in the present.",
+  "keywords": ["rumination"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 205,
+  "question": "i feel like i have no control over my life",
+  "alternate_questions": ["life out of control", "helpless feeling"],
+  "answer": "Focus on what you can control and take small steps forward.",
+  "keywords": ["control"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 206,
+  "question": "i just want everything to stop",
+  "alternate_questions": ["too much going on", "need a break from life"],
+  "answer": "It sounds overwhelming. Take a pause and consider reaching out for support.",
+  "keywords": ["overwhelmed"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 207,
+  "question": "i feel disconnected from myself",
+  "alternate_questions": ["not feeling like myself", "lost identity"],
+  "answer": "This can happen due to stress or emotional overload. Grounding techniques can help.",
+  "keywords": ["disconnect"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 208,
+  "question": "i feel like nobody cares about me",
+  "alternate_questions": ["feel unloved", "no one supports me"],
+  "answer": "Feeling uncared for is painful. Try reaching out to someone you trust.",
+  "keywords": ["lonely"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 209,
+  "question": "i dont know how to fix my life",
+  "alternate_questions": ["where do i start", "fix everything"],
+  "answer": "Start with small steps and focus on one area at a time.",
+  "keywords": ["life"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+{
+  "id": 210,
+  "question": "i feel like im pretending to be okay",
+  "alternate_questions": ["faking being okay", "hiding emotions"],
+  "answer": "It’s common to hide struggles. Expressing your feelings can reduce the burden.",
+  "keywords": ["emotion"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 211,
+  "question": "i get sudden waves of sadness",
+  "alternate_questions": ["random sadness", "unexpected low mood"],
+  "answer": "Sudden sadness can be linked to emotional processing or stress.",
+  "keywords": ["sad"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 212,
+  "question": "i feel like i have no personality anymore",
+  "alternate_questions": ["lost identity", "dont feel like myself"],
+  "answer": "This can happen during emotional stress. Reconnecting with interests can help.",
+  "keywords": ["identity"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 213,
+  "question": "i overanalyze everything people say",
+  "alternate_questions": ["reading too much into words"],
+  "answer": "This is often linked to anxiety. Try focusing on the present moment.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 214,
+  "question": "i feel exhausted even without doing anything",
+  "alternate_questions": ["mental exhaustion", "low energy always"],
+  "answer": "Mental exhaustion can come from stress, anxiety, or emotional overload.",
+  "keywords": ["fatigue"],
+  "category": "stress",
+  "intent_type": "symptoms"
+},
+{
+  "id": 215,
+  "question": "i feel like i ruin everything",
+  "alternate_questions": ["self sabotage feeling"],
+  "answer": "This may come from self-doubt. Awareness is the first step to change.",
+  "keywords": ["self doubt"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 216,
+  "question": "i get anxious thinking about the future",
+  "alternate_questions": ["future anxiety"],
+  "answer": "Focus on what you can control and take one step at a time.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 217,
+  "question": "i feel like everyone else has life figured out",
+  "alternate_questions": ["others doing better"],
+  "answer": "It may seem that way, but everyone struggles differently. Focus on your own path.",
+  "keywords": ["comparison"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 218,
+  "question": "i dont feel excited about anything anymore",
+  "alternate_questions": ["no excitement", "no joy"],
+  "answer": "This can be linked to emotional exhaustion or depression.",
+  "keywords": ["anhedonia"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 219,
+  "question": "i constantly doubt my decisions",
+  "alternate_questions": ["second guessing everything"],
+  "answer": "Excessive doubt can come from anxiety or low confidence.",
+  "keywords": ["doubt"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 220,
+  "question": "i feel like im just existing not living",
+  "alternate_questions": ["life feels empty"],
+  "answer": "This feeling can come from emotional disconnection. Try exploring meaningful activities.",
+  "keywords": ["empty"],
+  "category": "depression",
+  "intent_type": "emotional"
+},
+{
+  "id": 221,
+  "question": "i get irritated by everything lately",
+  "alternate_questions": ["easily irritated"],
+  "answer": "Irritability can be a sign of stress or emotional overload.",
+  "keywords": ["irritation"],
+  "category": "stress",
+  "intent_type": "symptoms"
+},
+{
+  "id": 222,
+  "question": "i feel like i am wasting my life",
+  "alternate_questions": ["life going nowhere"],
+  "answer": "This feeling often comes from comparison or unmet expectations.",
+  "keywords": ["life"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 223,
+  "question": "i feel anxious when things are going well",
+  "alternate_questions": ["fear of good things"],
+  "answer": "This can come from fear of uncertainty or past experiences.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 224,
+  "question": "i struggle to express how i feel",
+  "alternate_questions": ["cant express emotions"],
+  "answer": "Start by identifying your emotions and expressing them simply.",
+  "keywords": ["communication"],
+  "category": "emotional",
+  "intent_type": "coping"
+},
+
+{
+  "id": 225,
+  "question": "i feel like i am not good enough no matter what i do",
+  "alternate_questions": ["never good enough", "low self worth always"],
+  "answer": "This feeling is often linked to low self-esteem. Try challenging unrealistic standards.",
+  "keywords": ["self worth"],
+  "category": "self-esteem",
+  "intent_type": "emotional"
+},
+{
+  "id": 226,
+  "question": "i replay conversations in my head again and again",
+  "alternate_questions": ["social overthinking", "thinking about what i said"],
+  "answer": "This is common in anxiety. Try redirecting your focus to the present.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "coping"
+},
+{
+  "id": 227,
+  "question": "i feel like i dont belong anywhere",
+  "alternate_questions": ["dont fit in", "out of place"],
+  "answer": "Feeling disconnected is common. Building meaningful connections takes time.",
+  "keywords": ["belonging"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 228,
+  "question": "i feel overwhelmed by small tasks",
+  "alternate_questions": ["small things feel hard", "overwhelmed easily"],
+  "answer": "Break tasks into smaller steps and focus on one at a time.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 229,
+  "question": "i feel like i am always on edge",
+  "alternate_questions": ["constant tension", "cant relax"],
+  "answer": "This may be due to anxiety or stress. Relaxation techniques can help.",
+  "keywords": ["anxiety"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 230,
+  "question": "i feel like i cant trust my own thoughts",
+  "alternate_questions": ["doubt my thoughts", "uncertain thinking"],
+  "answer": "This can happen with anxiety or overthinking. Grounding techniques can help.",
+  "keywords": ["thinking"],
+  "category": "anxiety",
+  "intent_type": "emotional"
+},
+{
+  "id": 231,
+  "question": "i feel like everything is my fault",
+  "alternate_questions": ["blaming myself always", "guilt feeling"],
+  "answer": "Excessive guilt can come from negative thinking patterns. Try balanced self-reflection.",
+  "keywords": ["guilt"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 232,
+  "question": "i feel like i am losing control over my thoughts",
+  "alternate_questions": ["cant control thoughts", "racing thoughts"],
+  "answer": "Racing thoughts are often linked to anxiety. Breathing and grounding can help.",
+  "keywords": ["thoughts"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 233,
+  "question": "i feel like i have no energy to do anything",
+  "alternate_questions": ["no energy", "too tired mentally"],
+  "answer": "Low energy can be due to burnout, stress, or depression.",
+  "keywords": ["fatigue"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 234,
+  "question": "i feel like my mind never stops thinking",
+  "alternate_questions": ["constant thoughts", "overactive mind"],
+  "answer": "An overactive mind is common in anxiety. Mindfulness can help slow thoughts.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 235,
+  "question": "i feel like i am not in control of my life decisions",
+  "alternate_questions": ["no control life", "others decide for me"],
+  "answer": "Focus on small decisions you can control to rebuild confidence.",
+  "keywords": ["control"],
+  "category": "self-esteem",
+  "intent_type": "coping"
+},
+{
+  "id": 236,
+  "question": "i feel like i am drifting away from everyone",
+  "alternate_questions": ["losing connections", "feeling distant"],
+  "answer": "This may be due to emotional withdrawal. Reaching out can help reconnect.",
+  "keywords": ["disconnect"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 237,
+  "question": "i feel like i cant keep up with life",
+  "alternate_questions": ["life too fast", "falling behind"],
+  "answer": "Slow down and focus on manageable goals instead of everything at once.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 238,
+  "question": "i always think about worst case scenarios",
+  "alternate_questions": ["catastrophic thinking", "fearful thoughts"],
+  "answer": "This is common in anxiety. Try challenging worst-case thoughts with realistic ones.",
+  "keywords": ["catastrophizing"],
+  "category": "anxiety",
+  "intent_type": "symptoms"
+},
+{
+  "id": 239,
+  "question": "i dont recognize myself anymore",
+  "alternate_questions": ["changed personality", "not myself"],
+  "answer": "Major stress or emotional changes can affect identity. Self-reflection can help reconnect.",
+  "keywords": ["identity"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 240,
+  "question": "how do i cope with stress daily",
+  "alternate_questions": ["daily stress coping", "manage stress everyday"],
+  "answer": "Daily stress can be managed with breathing, breaks, and prioritizing tasks.",
+  "keywords": ["stress"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 241,
+  "question": "i feel off but i dont know why",
+  "alternate_questions": ["i dont feel normal", "something feels wrong"],
+  "answer": "Feeling off is common. Try identifying emotions and talking to someone you trust.",
+  "keywords": ["confusion"],
+  "category": "emotional",
+  "intent_type": "emotional"
+},
+{
+  "id": 242,
+  "question": "i am mentally exhausted but did nothing",
+  "alternate_questions": ["tired without work", "mentally drained"],
+  "answer": "Mental exhaustion can come from overthinking or emotional stress.",
+  "keywords": ["fatigue"],
+  "category": "stress",
+  "intent_type": "symptoms"
+},
+{
+  "id": 243,
+  "question": "i dont feel like myself anymore",
+  "alternate_questions": ["lost identity"],
+  "answer": "This can happen during stress. Reconnecting with routines can help.",
+  "keywords": ["identity"],
+  "category": "emotional",
+  "intent_type": "symptoms"
+},
+{
+  "id": 244,
+  "question": "how do i stop feeling overwhelmed",
+  "alternate_questions": ["reduce overwhelm"],
+  "answer": "Break tasks into smaller steps and take regular breaks.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "coping"
+},
+{
+  "id": 245,
+  "question": "i feel like everything is too much",
+  "alternate_questions": ["cant handle anything"],
+  "answer": "Focus only on immediate tasks and slow things down.",
+  "keywords": ["overwhelmed"],
+  "category": "stress",
+  "intent_type": "emotional"
+},
+{
+  "id": 246,
+  "question": "i dont want to do anything at all",
+  "alternate_questions": ["no motivation"],
+  "answer": "Low motivation can be linked to burnout or emotional fatigue. Start small.",
+  "keywords": ["motivation"],
+  "category": "depression",
+  "intent_type": "symptoms"
+},
+{
+  "id": 247,
+  "question": "why does my mind not stop thinking",
+  "alternate_questions": ["constant thoughts"],
+  "answer": "An overactive mind is common in anxiety. Grounding techniques can help.",
+  "keywords": ["overthinking"],
+  "category": "anxiety",
+  "intent_type": "cause"
+},
+{
+  "id": 248,
+  "question": "i feel anxious and stressed at the same time",
+  "alternate_questions": ["mixed anxiety stress"],
+  "answer": "Stress and anxiety often overlap. Use calming techniques and reduce triggers.",
+  "keywords": ["anxiety", "stress"],
+  "category": "anxiety",
+  "intent_type": "emotional"
+},
+{
+  "id": 249,
+  "question": "i feel tired of everything",
+  "alternate_questions": ["emotionally tired"],
+  "answer": "This may indicate emotional exhaustion. Rest and support can help.",
+  "keywords": ["fatigue"],
+  "category": "depression",
+  "intent_type": "emotional"
+},
+{
+  "id": 250,
+  "question": "how can i support a friend who is feeling depressed",
+  "alternate_questions": ["help depressed friend", "what to say to a sad friend"],
+  "answer": "Listen without judging, validate their feelings, and gently encourage them to seek help if needed.",
+  "keywords": ["support", "friend", "depression"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 251,
+  "question": "what should i do if someone says they want to give up",
+  "alternate_questions": ["friend wants to quit life", "someone feeling hopeless"],
+  "answer": "Take it seriously, stay with them, listen calmly, and encourage reaching out to a trusted person or helpline.",
+  "keywords": ["crisis", "support"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 252,
+  "question": "how do i help someone having a panic attack",
+  "alternate_questions": ["support during panic attack", "help anxious person"],
+  "answer": "Stay calm, guide them to breathe slowly, and remind them the feeling will pass.",
+  "keywords": ["panic", "support"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 253,
+  "question": "how can i support my partner with anxiety",
+  "alternate_questions": ["help anxious partner", "support girlfriend anxiety"],
+  "answer": "Be patient, listen actively, and avoid dismissing their feelings while encouraging healthy coping.",
+  "keywords": ["anxiety", "partner"],
+  "category": "relationships",
+  "intent_type": "support"
+},
+{
+  "id": 254,
+  "question": "what should i say to someone who feels worthless",
+  "alternate_questions": ["comfort someone low self esteem", "help insecure person"],
+  "answer": "Offer reassurance, remind them of their value, and avoid judging or dismissing their feelings.",
+  "keywords": ["self esteem", "support"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 255,
+  "question": "how do i help someone who is overthinking constantly",
+  "alternate_questions": ["support overthinking friend", "help anxious thinker"],
+  "answer": "Encourage them to focus on the present and suggest simple grounding techniques.",
+  "keywords": ["overthinking"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 256,
+  "question": "how can i be there for someone going through a tough time",
+  "alternate_questions": ["support someone struggling", "help emotionally"],
+  "answer": "Be present, listen without interrupting, and offer consistent support instead of solutions.",
+  "keywords": ["support"],
+  "category": "support",
+  "intent_type": "support"
+},
+{
+  "id": 257,
+  "question": "what should i do if someone is isolating themselves",
+  "alternate_questions": ["friend avoiding everyone", "someone withdrawing socially"],
+  "answer": "Check in gently, express concern, and let them know you're available without forcing interaction.",
+  "keywords": ["isolation"],
+  "category": "support",
+  "intent_type": "support"
+}
+]

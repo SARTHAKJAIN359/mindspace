@@ -1,0 +1,10 @@
+flask
+groq
+scikit-learn
+numpy
+scipy
+textblob
+gunicorn
+faiss-cpu
+sentence-transformers
+python-dotenv
