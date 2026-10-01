@@ -5,7 +5,6 @@ import re
 import numpy as np
 import faiss
 from textblob import TextBlob
-from sentence_transformers import SentenceTransformer
 
 DATA_DIR = "data"
 ARTIFACT_DIR = os.path.join(DATA_DIR, "artifacts")
@@ -21,6 +20,21 @@ EMBEDDER = None
 FAISS_INDEX = None
 RAG_DATA = None
 DOCS = None
+
+
+# ---------------------------
+# LAZY-LOAD EMBEDDER
+# ---------------------------
+def get_embedder():
+    """Lazy-load the SentenceTransformer model on first use.
+    Avoids loading ~300MB of PyTorch into memory during gunicorn boot."""
+    global EMBEDDER
+    if EMBEDDER is None:
+        print("[LAZY] Loading local embedding model (all-MiniLM-L6-v2)...")
+        from sentence_transformers import SentenceTransformer
+        EMBEDDER = SentenceTransformer('all-MiniLM-L6-v2')
+        print("[LAZY] Embedding model loaded.")
+    return EMBEDDER
 
 
 # ---------------------------
@@ -70,28 +84,28 @@ def load_rag_corpus():
 # INIT RAG (FAISS + LOCAL EMBEDDINGS)
 # ---------------------------
 def init_rag():
-    """Initialise FAISS index and local sentence-transformer embeddings.
-    All embedding is done locally — no external LLM client needed here."""
-    global EMBEDDER, FAISS_INDEX, RAG_DATA, DOCS
+    """Initialise FAISS index and (optionally) local sentence-transformer embeddings.
+    If pre-built artifacts exist, the embedder is NOT loaded at startup — it will
+    be lazy-loaded on the first query to keep peak boot memory under 512 MB."""
+    global FAISS_INDEX, RAG_DATA, DOCS
     RAG_DATA, DOCS = load_rag_corpus()
 
-    print("Loading local embedding model (all-MiniLM-L6-v2)...")
-    EMBEDDER = SentenceTransformer('all-MiniLM-L6-v2')
-    
     if os.path.exists(FAISS_INDEX_PATH):
         try:
             FAISS_INDEX = faiss.read_index(FAISS_INDEX_PATH)
             if FAISS_INDEX.d != 384:
                 raise ValueError("Dimension mismatch")
-            print("FAISS index loaded.")
+            print("FAISS index loaded from pre-built artifacts.")
+            return  # Embedder will be lazy-loaded on first query
         except:
             print("Warning: Rebuilding FAISS index due to dimension mismatch or error...")
             FAISS_INDEX = None
 
     if FAISS_INDEX is None:
         print("Generating local embeddings for RAG... This will take a few seconds.")
+        embedder = get_embedder()
         
-        emb_matrix = EMBEDDER.encode(DOCS, convert_to_numpy=True)
+        emb_matrix = embedder.encode(DOCS, convert_to_numpy=True)
         faiss.normalize_L2(emb_matrix)
         
         dim = emb_matrix.shape[1]
@@ -183,7 +197,7 @@ def answer_query(query, top_k=3):
     normalized_q = normalize(expanded)
     
     # Generate query embedding locally
-    query_emb = EMBEDDER.encode([normalized_q], convert_to_numpy=True)
+    query_emb = get_embedder().encode([normalized_q], convert_to_numpy=True)
     faiss.normalize_L2(query_emb)
 
     # Search FAISS (fetch more to allow filtering)
