@@ -10,7 +10,7 @@
 
 > **MindSpace** is an empathetic, retrieval-augmented conversational AI companion providing grounded mental health guidance, psychoeducation, and automated multi-country crisis intervention.
 
-🌐 **Live Demo:** [https://health-chabot.onrender.com/](https://health-chabot.onrender.com/)
+🌐 **Live Demo:** [https://mindspace-chabot.onrender.com/](https://mindspace-chabot.onrender.com/)
 
 ---
 
